@@ -1,0 +1,23 @@
+.go {
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    font-size: 30px;
+    border: none;
+    border-radius: 36px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s, padding 0.2s, font-size 0.2s, border-radius 0.2s;
+}
+
+.go:hover {
+    background-color: black;
+    color: white;
+    padding: 30px 40px;
+    border: none;
+    border-radius: 46px;
+    font-size: 40px;
+}
+
+.go:active {
+    opacity: 0.5;
+}
